@@ -1,0 +1,38 @@
+a,
+button,
+input,
+textarea,
+svg * {
+    transition-duration: var(--transition-duration);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font-family: var(--font-family), BlinkMacSystemFont, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    color: var(--color-gray);
+    background-color: var(--color-dark);
+}
+
+/* BUTTON */
+.button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: var(--button-height);
+    padding-inline: 50px;
+    border: none;
+    border-radius: var(--border-radius);
+    background-color: var(--color-white);
+
+    font-weight: 590;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #070b33;
+}

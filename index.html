@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/fonts.css">
+    <link rel="stylesheet" href="./styles/variables.css">
+    <link rel="stylesheet" href="./styles/utils.css">
+    <link rel="stylesheet" href="./styles/globals.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.2.7/purify.min.js"></script>
+    <title>AIBY</title>
+</head>
+<body>
+<main class="page">
+    <section class="page__banner banner">
+        <div class="banner__content">
+            <button class="banner__close-button">
+                <img src="./assets/icons/cross.svg" alt="Cross Icon">
+            </button>
+            <h2 data-i18n="Get Unlimited <br>Access" class="banner__title">Get Unlimited <br>Access
+            </h2>
+            <div class="banner__features features">
+                <div class="features__item">
+                    <div data-i18n="Unlimited Art <br>Creation" class="features__item-name">
+                        Unlimited Art <br>Creation
+                    </div>
+                </div>
+                <div class="features__item">
+                    <div data-i18n="Exclusive <br>Styles" class="features__item-name">Exclusive <br>Styles
+                    </div>
+                </div>
+                <div class="features__item">
+                    <div data-i18n="Magic Avatars <br>With 20% Off" class="features__item-name">
+                        Magic Avatars <br>With 20% Off
+                    </div>
+                </div>
+            </div>
+            <div class="banner__plans plans">
+                <a href="https://apple.com/" target="_blank" rel="noopener" class="plans__item">
+                    <div class="plans__item-info">
+                        <div data-i18n="YEARLY ACCESS" class="plans__item-name">Yearly access</div>
+                        <p data-i18n="Just {{price}} per year" data-price="$39.99"
+                           class="plans__item-description">Just
+                            $39.99 per year</p>
+                    </div>
+                    <div data-i18n="{{price}} <br>per week" data-price="$0.48"
+                         class="plans__item-price">$0.48 <br>per
+                        week
+                    </div>
+                    <div data-i18n="BEST OFFER" class="plans__item-badge">best offer</div>
+                </a>
+                <a href="https://google.com/" target="_blank" rel="noopener"
+                   class="plans__item plans__item_outline">
+                    <div class="plans__item-info">
+                        <div data-i18n="WEEKLY ACCESS" class="plans__item-name">Weekly access</div>
+                    </div>
+                    <div data-i18n="{{price}} <br>per week" data-price="$6.99"
+                         class="plans__item-price">$6.99 <br>per
+                        week
+                    </div>
+                </a>
+                <a data-i18n="Continue" href="#" class="plans__button button">Continue</a>
+            </div>
+            <footer class="banner__footer">
+                <ul class="banner__footer-list">
+                    <li class="banner__footer-item">
+                        <a data-i18n="Terms of Use" href="#" class="banner__footer-link">Terms of
+                            Use</a>
+                    </li>
+                    <li class="banner__footer-item">
+                        <a data-i18n="Privacy Policy" href="#" class="banner__footer-link">Privacy
+                            Policy</a>
+                    </li>
+                    <li class="banner__footer-item">
+                        <a data-i18n="Restore" href="#" class="banner__footer-link">Restore</a>
+                    </li>
+                </ul>
+            </footer>
+        </div>
+    </section>
+</main>
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
