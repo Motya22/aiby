@@ -10,8 +10,7 @@
     --shadow: 0 70px 22px 0 rgba(255, 130, 228, 0.24);
 
     --font-family: -apple-system;
-    /*--font-family-second: 'SF Pro Display';*/
-    --font-family-third: 'Roboto';
+    --font-family-accent: 'Roboto';
 
     --button-height: 56px;
 

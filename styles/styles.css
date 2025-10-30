@@ -5,7 +5,7 @@
 .page__banner {
 }
 
-/* BANNER ------------------------------------------------------------------------- */
+/* BANNER ----------------------------------------------------------------------- */
 .banner {
     min-height: 100vh;
     padding: 8px 24px;
@@ -222,7 +222,7 @@
     top: 0;
     right: 24px;
     transform: translateY(-50%);
-    font-family: var(--font-family-third), sans-serif;
+    font-family: var(--font-family-accent), sans-serif;
     font-weight: 700;
     font-size: 13px;
     text-transform: uppercase;
@@ -263,13 +263,7 @@
     text-decoration-skip-ink: none;
 }
 
-@media (max-width: 389px) {
-    .banner {
-        padding: 8px 24px;
-        background-position: center -30px;
-    }
-}
-
+/* MIN-WIDTH:390 ------------------------------------------------------------------------- */
 @media (min-width: 390px) {
     .banner {
         padding: 38px 24px;
@@ -301,5 +295,13 @@
         &:not(:last-child):nth-of-type(2) {
             margin-bottom: 16px;
         }
+    }
+}
+
+/* MAX-WIDTH:389 ------------------------------------------------------------------------- */
+@media (max-width: 389px) {
+    .banner {
+        padding: 8px 24px;
+        background-position: center -30px;
     }
 }
